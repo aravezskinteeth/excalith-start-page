@@ -182,7 +182,7 @@ const defaultConfig = {
 					{
 						name: "Obsidian Hub",
 						url: "https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/obsidian-admonition/",
-						icon: "simple-icons:obsidian
+						icon: "simple-icons:obsidian"
 					}
 				]
 			},
