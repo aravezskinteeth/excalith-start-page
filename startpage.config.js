@@ -1,5 +1,5 @@
 const defaultConfig = {
-	username: "Excalith",
+	username: "skinofmyeden",
 	theme: {
 		backgroundColor: "#121317",
 		windowColor: "#1e212b",
@@ -57,7 +57,7 @@ const defaultConfig = {
 		]
 	},
 	urlLaunch: {
-		target: "_self",
+		target: "_blank",
 		defaultColor: "white",
 		hoverColor: "violet"
 	},
@@ -111,24 +111,24 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "Portfolio",
-						url: "https://cancellek.com",
-						icon: "mdi:web"
+						name: "OneDrive",
+						url: "https://accounts.google.com/v3/signin/identifier?dsh=S906907024%3A1669747666000965&continue=http%3A%2F%2Fdrive.google.com%2F%3Futm_source%3Den&ltmpl=drive&passive=true&service=wise&usp=gtd&utm_campaign=web&utm_content=gotodrive&utm_medium=button&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtNhl6RsJOtsze0WZnCLtRGI9o-ptizs50d5DaAka2vpbgJjJavSLwmE4D1ZjW6zVOFyPwo",
+						icon: "entypo-social:onedrive"
 					},
 					{
-						name: "Keybase",
-						url: "https://keybase.io/",
-						icon: "fa-brands:keybase"
+						name: "Drive",
+						url: "https://accounts.google.com/v3/signin/identifier?dsh=S906907024%3A1669747666000965&continue=http%3A%2F%2Fdrive.google.com%2F%3Futm_source%3Den&ltmpl=drive&passive=true&service=wise&usp=gtd&utm_campaign=web&utm_content=gotodrive&utm_medium=button&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAtNhl6RsJOtsze0WZnCLtRGI9o-ptizs50d5DaAka2vpbgJjJavSLwmE4D1ZjW6zVOFyPwo",
+						icon: "fa6-brands:google-drive"
 					},
 					{
-						name: "GPT",
-						url: "https://chat.openai.com/",
-						icon: "simple-icons:openai"
+						name: "Photos",
+						url: "https://photos.google.com/u/4/",
+						icon: "ph:google-photos-logo-fill"
 					},
 					{
-						name: "OCI",
-						url: "https://www.oracle.com/cloud/",
-						icon: "simple-icons:oracle"
+						name: "Gmail",
+						url: "https://accounts.google.com/v3/signin/identifier?dsh=S-586340433%3A1669747724044051&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&rip=1&sacu=1&service=mail&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=ARgdvAvUE4swdIrUq0xQl7xRWXAEILnK8ymac4DEmQvjk3IrGo2kNE2S2pGfJtCMoaKGvFMyCV4L",
+						icon: "simple-icons:gmail"
 					}
 				]
 			},
@@ -138,14 +138,14 @@ const defaultConfig = {
 				align: "left",
 				links: [
 					{
-						name: "GitHub",
-						url: "https://github.com",
-						icon: "mdi:github"
+						name: "GPT",
+						url: "https://chat.openai.com/chat",
+						icon: "simple-icons:openai"
 					},
 					{
-						name: "GitLab",
-						url: "https://gitlab.com",
-						icon: "ph:gitlab-logo-simple-fill"
+						name: "Explain Shell",
+						url: "https://explainshell.com/",
+						icon: "tabler:brand-powershell"
 					},
 					{
 						name: "Dev.to",
@@ -153,117 +153,117 @@ const defaultConfig = {
 						icon: "material-symbols:logo-dev"
 					},
 					{
-						name: "Stack Overflow",
-						url: "https://stackoverflow.com/",
-						icon: "mdi:stack-overflow"
+						name: "Explain Dev",
+						url: "https://app.explain.dev/",
+						icon: "mdi:bash"
 					}
 				]
 			},
 			{
-				title: "Social",
+				title: "Academic",
 				color: "violet",
 				align: "left",
 				links: [
 					{
-						name: "Twitter",
-						url: "https://twitter.com",
-						icon: "mdi:twitter"
+						name: "Quarto",
+						url: "https://quarto.org/",
+						icon: "fa6-brands:r-project"
 					},
 					{
-						name: "Mastodon",
-						url: "https://mastodon.social/",
-						icon: "ri:mastodon-fill"
+						name: "Anna's Archive",
+						url: "https://annas-archive.org/",
+						icon: "ion:library"
 					},
 					{
-						name: "Reddit",
-						url: "https://reddit.com",
-						icon: "mdi:reddit"
+						name: "Markdown",
+						url: "https://help.obsidian.md/How+to/Format+your+notes",
+						icon: "fa6-brands:markdown"
 					},
 					{
-						name: "Polywork",
-						url: "https://polywork.com",
-						icon: "simple-icons:polywork"
+						name: "Obsidian Hub",
+						url: "https://publish.obsidian.md/hub/02+-+Community+Expansions/02.05+All+Community+Expansions/Plugins/obsidian-admonition/",
+						icon: "simple-icons:obsidian
 					}
 				]
 			},
 			{
-				title: "Gaming",
+				title: "Utilities",
 				color: "cyan",
 				align: "left",
 				links: [
 					{
-						name: "Polygon",
-						url: "https://polygon.com",
-						icon: "uil:polygon"
+						name: "Reddit Saved",
+						url: "https://eternity.portals.sh/",
+						icon: "mdi:reddit"
 					},
 					{
-						name: "IGN",
-						url: "https://ign.com",
-						icon: "mdi:currency-sign"
+						name: "Toby",
+						url: "https://web.gettoby.com/",
+						icon: "mdi:paper"
 					},
 					{
-						name: "RPS",
-						url: "https://rockpapershotgun.com/",
-						icon: "ph:toilet-paper-bold"
+						name: "Cuevana3",
+						url: "https://cuevana3.be/",
+						icon: "bxs:camera-movie"
 					},
 					{
-						name: "80lv",
-						url: "https://80.lv/",
-						icon: "tabler:hand-rock"
+						name: "Temp Mail",
+						url: "https://temp-mail.com/",
+						icon: "material-symbols:mail-lock"
 					}
 				]
 			},
 			{
-				title: "Science",
+				title: "Art",
 				color: "blue",
 				align: "left",
 				links: [
 					{
-						name: "PopSci",
-						url: "https://popsci.com/",
-						icon: "material-symbols:science"
+						name: "Draw a Box",
+						url: "https://drawabox.com/lesson/0/2",
+						icon: "mdi:lead-pencil"
 					},
 					{
-						name: "Space",
-						url: "fa6-solid:user-astronaut",
-						icon: "mdi:reddit"
+						name: "Gesture Drawing",
+						url: "https://www.lovelifedrawing.com/",
+						icon: "fa6-solid:person-falling"
 					},
 					{
-						name: "NASA",
-						url: "https://blogs.nasa.gov/",
-						icon: "simple-icons:nasa"
+						name: "ctrl paint",
+						url: "https://www.ctrlpaint.com/",
+						icon: "fontisto:tablet-alt"
 					},
 					{
-						name: "ESA",
-						url: "https://blogs.esa.int/",
-						icon: "mdi:black-mesa"
+						name: "Domestika",
+						url: "https://www.domestika.org/",
+						icon: "mdi:paint-outline"
 					}
 				]
 			},
 			{
-				title: "Tech",
+				title: "Biology",
 				color: "yellow",
 				align: "left",
 				links: [
 					{
-						name: "TechCrunch",
-						url: "https://techcrunch.com/",
-						icon: "game-icons:techno-heart"
+						name: "Xena Browser",
+						url: "https://xenabrowser.net/",
+						icon: "ph:dna-bold"
 					},
 					{
-						name: "Verge",
-						url: "https://www.theverge.com/",
-						icon: "arcticons:verge"
+						name: "Gepia2",
+						url: "http://gepia2.cancer-pku.cn/#index",
+						icon: "solar:dna-broken"
 					},
 					{
-						name: "It's Foss",
-						url: "https://itsfoss.com/",
-						icon: "ri:mastodon-fill"
+						name: "Cell wiki",
+						url: "https://www.cellwiki.net/",
+						icon: "healthicons:blood-cells"
 					},
 					{
-						name: "9To5 Linux",
-						url: "https://9to5linux.com/",
-						icon: "uil:linux"
+						name: "Bio icons",
+						url: "https://bioicons.com/",
+						icon: "healthicons:bacteria"
 					}
 				]
 			}
